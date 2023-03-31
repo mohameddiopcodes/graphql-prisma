@@ -28,7 +28,6 @@ model Post {
   authorId  String
   //comments
   comments  Comment[]
-  commentId String
   //time fields
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
